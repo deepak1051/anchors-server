@@ -19,7 +19,7 @@ app.post('/sendMail', async (req, res) => {
 
   var mailOptions = {
     from: 'deepakpanwar1743@gmail.com',
-    to: 'lightyagamigoku@gmail.com',
+    to: 'ravi@anchors.in',
     subject: 'Sending Email From Anchors',
     text: `User Name: ${req.body.name} 
     User Contact Number : ${req.body.number}
